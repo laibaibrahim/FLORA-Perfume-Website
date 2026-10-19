@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover FLORA, a thoughtful collection of fine fragrances inspired by nature and the stories we carry.">
+    <title>FLORA | The Art of Fragrance</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Site-wide navigation, with a checkbox-powered mobile menu. -->
+    <header class="site-header">
+        <a class="brand" href="index.html" aria-label="FLORA home">
+            <span class="brand-name">FLORA</span>
+            <span class="brand-tagline">The Art of Fragrance</span>
+        </a>
+
+        <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Toggle navigation">
+        <label class="menu-button" for="menu-toggle" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html" aria-current="page">Home</a>
+            <a href="about.html">Our Story</a>
+            <div class="nav-group">
+                <a href="collection.html">Shop <span class="nav-chevron" aria-hidden="true"></span></a>
+                <div class="nav-dropdown">
+                    <a href="collection.html">Shop All</a>
+                    <a href="women.html">Women</a>
+                    <a href="men.html">Men</a>
+                    <a href="signature.html">Signature</a>
+                    <a href="gifts.html">Gift Sets</a>
+                </div>
+            </div>
+            <div class="nav-group">
+                <a href="guide.html">Discover <span class="nav-chevron" aria-hidden="true"></span></a>
+                <div class="nav-dropdown">
+                    <a href="guide.html">Fragrance Guide</a>
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="header-actions" aria-label="Quick links">
+            <a class="header-action" href="search.html" aria-label="Search fragrances" title="Search">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <circle cx="10.8" cy="10.8" r="6.3"></circle>
+                    <path d="m15.5 15.5 4.2 4.2"></path>
+                </svg>
+            </a>
+            <a class="header-action" href="wishlist.html" aria-label="Wishlist" title="Wishlist">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M20.5 8.8c0 4.2-8.5 10-8.5 10s-8.5-5.8-8.5-10a4.5 4.5 0 0 1 8.5-2.1 4.5 4.5 0 0 1 8.5 2.1Z"></path>
+                </svg>
+            </a>
+            <a class="header-action cart-action" href="cart.html" aria-label="Shopping bag, 0 items" title="Shopping bag">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 8h14l1 12H4L5 8Z"></path>
+                    <path d="M9 9V6a3 3 0 0 1 6 0v3"></path>
+                </svg>
+                <span class="cart-count" aria-hidden="true">0</span>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero image and introduction. -->
+        <section class="hero" aria-labelledby="hero-title">
+            <img class="hero-image" src="images/flora-hero.jpg" alt="An elegant perfume bottle surrounded by soft floral details">
+            <div class="hero-content">
+                <p class="eyebrow">A little beauty, bottled</p>
+                <h1 id="hero-title">A Scent for<br>Every Story.</h1>
+                <p class="hero-copy">Fragrance has a way of holding a moment. Find the notes that feel like you, and let them linger.</p>
+                <a class="button button-light" href="collection.html">Shop Collection <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            <p class="hero-caption">Thoughtfully composed. Beautifully remembered.</p>
+        </section>
+
+        <!-- Featured perfumes. -->
+        <section class="section featured" aria-labelledby="featured-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Find your feeling</p>
+                    <h2 id="featured-title">The Fragrance Edit</h2>
+                </div>
+                <a class="text-link" href="collection.html">Explore all fragrances <span aria-hidden="true">&rarr;</span></a>
+            </div>
+
+            <div class="product-grid">
+                <article class="product-card">
+                    <a class="product-image-link" href="women.html" aria-label="Explore Rose Ã‰veil">
+                        <img src="images/flora-rose.jpg" alt="Rose-toned perfume bottle in warm, gentle light">
+                    </a>
+                    <div class="product-info">
+                        <div>
+                            <h3>Rose Ã‰veil</h3>
+                            <p>Soft rose Â· Peony Â· White musk</p>
+                        </div>
+                        <span class="product-number">01</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a class="product-image-link" href="signature.html" aria-label="Explore Santal No. 8">
+                        <img src="images/flora-amber.jpg" alt="Amber perfume bottle with a rich, golden glow">
+                    </a>
+                    <div class="product-info">
+                        <div>
+                            <h3>Santal No. 8</h3>
+                            <p>Sandalwood Â· Fig Â· Warm amber</p>
+                        </div>
+                        <span class="product-number">02</span>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <a class="product-image-link" href="collection.html" aria-label="Explore Fleur d'Aube">
+                        <img src="images/flora-hero.jpg" alt="Delicate fragrance bottle styled as a still-life">
+                    </a>
+                    <div class="product-info">
+                        <div>
+                            <h3>Fleur d'Aube</h3>
+                            <p>Neroli Â· Orange blossom Â· Vetiver</p>
+                        </div>
+                        <span class="product-number">03</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Signature fragrance feature. -->
+        <section class="signature-feature" aria-labelledby="signature-title">
+            <div class="signature-image">
+                <img src="images/flora-amber.jpg" alt="A sculptural perfume bottle in a softly lit setting">
+            </div>
+            <div class="signature-copy">
+                <p class="eyebrow">An expression of FLORA</p>
+                <h2 id="signature-title">A little daring.<br>A little timeless.</h2>
+                <p>Meet Santal No. 8: a soulful blend of creamy sandalwood and sun-warmed amber, made to feel like your own from the very first wear.</p>
+                <a class="button button-outline" href="signature.html">Discover the signature <span aria-hidden="true">&rarr;</span></a>
+            </div>
+        </section>
+
+        <!-- Gift set promotion. -->
+        <section class="gift-feature" aria-labelledby="gift-title">
+            <div class="gift-copy">
+                <p class="eyebrow">Made for giving</p>
+                <h2 id="gift-title">A beautiful thing<br>to give.</h2>
+                <p>Thoughtful fragrance pairings, wrapped with care. For the ones you love, and the moments worth celebrating.</p>
+                <a class="button button-light" href="gifts.html">Explore gift sets <span aria-hidden="true">&rarr;</span></a>
+            </div>
+            <img src="images/flora-rose.jpg" alt="A perfume bottle ready to be gifted">
+        </section>
+
+        <!-- Short brand story. -->
+        <section class="story-teaser" aria-labelledby="story-title">
+            <p class="eyebrow">A note from us</p>
+            <h2 id="story-title">Beauty in the details.<br>Meaning in every note.</h2>
+            <p>FLORA began with a simple belief: the things we wear should feel like a part of who we are. We create considered fragrances with a little wonder in every layer.</p>
+            <a class="text-link" href="about.html">Get to know our story <span aria-hidden="true">&rarr;</span></a>
+        </section>
+    </main>
+
+    <!-- Shared footer navigation and contact details. -->
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="brand brand-footer" href="index.html">
+                    <span class="brand-name">FLORA</span>
+                    <span class="brand-tagline">The Art of Fragrance</span>
+                </a>
+                <p>Considered fragrances for the stories only you can tell.</p>
+            </div>
+            <div class="footer-links">
+                <h2>Explore</h2>
+                <a href="collection.html">Shop All</a>
+                <a href="women.html">Women</a>
+                <a href="men.html">Men</a>
+                <a href="gifts.html">Gift Sets</a>
+            </div>
+            <div class="footer-links">
+                <h2>Discover</h2>
+                <a href="about.html">Our Story</a>
+                <a href="signature.html">Signature</a>
+                <a href="guide.html">Fragrance Guide</a>
+                <a href="gallery.html">Gallery</a>
+            </div>
+            <div class="footer-contact">
+                <h2>Say hello</h2>
+                <a href="mailto:hello@flora-fragrance.com">hello@flora-fragrance.com</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FLORA. The Art of Fragrance.</p>
+            <a href="contact.html">We'd love to hear from you</a>
+        </div>
+    </footer>
+</body>
+</html>
